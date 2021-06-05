@@ -1,0 +1,31 @@
+html, body {
+  margin: 0;
+  padding: 0;
+
+  width:100%;
+  height:100%;
+  background:linear-gradient(-46deg, #FF00BF, #BA49FF, #1E37FF, #45D4FF, #00FF40, #F3FF35, #FFA81E, #FF4B4B);
+  background-size:400% 400%;
+  animation: gradient 20s ease infinite;
+  font-family: "open sans";
+}
+
+canvas {
+  display: block;
+}
+@keyframes gradient
+{
+  0%
+  {
+    background-position: 0% 50%;
+  }
+  50%
+  {
+    background-position: 100% 50%;
+  }
+  100%
+  {
+    background-position: 0% 50%;
+  }
+
+}
